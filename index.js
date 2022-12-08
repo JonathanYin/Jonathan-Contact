@@ -28,5 +28,5 @@
 
 function openBox() {
     var element = document.getElementById("box");
-    element.classList.toggle("i");
+    element.classList.toggle("open");
 }

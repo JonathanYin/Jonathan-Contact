@@ -18,10 +18,15 @@
 
 // createSubtitle("I am a Mathematics-Computer Science major at UC San Diego.");
 
-(function() {
-    $('.btn').click(function() {
-        $(this).toggleClass('active');
-        return $('.box').toggleClass('open');
-    });
+// (function() {
+//     $('.btn').on(function() {
+//         $(this).toggleClass('active');
+//         return $('.box').toggleClass('open');
+//     });
     
-}).call(this);
+// }).call(this);
+
+function openBox() {
+    var element = document.getElementById("box");
+    element.classList.toggle("i");
+}

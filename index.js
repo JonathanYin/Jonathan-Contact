@@ -28,5 +28,7 @@
 
 function openBox() {
     var element = document.getElementById("box");
+    var btn = document.getElementById("btn");
     element.classList.toggle("open");
+    btn.classList.toggle("active");
 }

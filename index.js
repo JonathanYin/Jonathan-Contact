@@ -16,4 +16,4 @@ const addWord = (text, index) => subtitle.appendChild(createWord(text, index));
 
 const createSubtitle = text => text.split(" ").map(addWord);
 
-createSubtitle("I am a Mathematics-Computer Science student at UC San Diego.");
+createSubtitle("I am a Mathematics-Computer Science major at UC San Diego.");

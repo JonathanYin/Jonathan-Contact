@@ -1,3 +1,3 @@
-# Hi, I'm Jonathan Yin
+# Jonathan Yin - Contact Page
 
 [GitHub Pages](https://jonathanyin.github.io/Jonathan-Introduction/)

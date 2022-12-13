@@ -8,4 +8,9 @@ $(document).ready(function () {
         });
         
     }).call(this);
+    
+    $("#resume").click(function (e) {
+        e.preventDefault();  // stop the browser from following
+        window.location.href = '/resume.pdf';
+    });
 });
